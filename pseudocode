@@ -1,0 +1,25 @@
+****************************Pseudocode***********************************
+
+import the scanner class.
+create scanner object and assign it to input var.
+prompt user for month, date, and year(mm/dd/yyyy).
+store the input in a string variable.
+Then split the string with regular expresion "/" and store it in a string array.
+declare variable month, date, and year and assign them the string value in the array according to their index.
+create switch statement to assign the number with the name of the month.
+check if the date is with in range of 0 to 31.
+if the month is February check the date is not longer than 28 days.
+print out the result.
+
+*************************** Test Cases **********************************
+//case 1(Wrong month input)
+        Enter a date (mm/dd/yyyy): 21/30/2020
+        It is Invalid Month 30, 2020
+//case 2(Proper input)
+        Enter a date (mm/dd/yyyy): 11/15/2020
+        It is November 15, 2020
+//case 3(Wrong date input)
+        Enter a date (mm/dd/yyyy): 02/30/1999
+        It is February Invalid date, 1999
+
+
